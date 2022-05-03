@@ -161,17 +161,17 @@ nav img {
     }
     
 .citadine{
-    background-image: url(../images/208.jpg);
+    background-image: url(./img/208.jpg);
     background-position: 25% 35%;
  }
 
  .break{
-    background-image: url(../images/berline.jpg);
+    background-image: url(./img/berline.jpg);
     background-position: 25% 35%;
  }
 
  .van{
-    background-image: url(../images/rifter.jpg);
+    background-image: url(./img/rifter.jpg);
     background-position: 25% 35%;
  }
 
