@@ -1,3 +1,6 @@
+/* ------ Font family ----- */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
 body {
     width: 100%;
     height: auto;
@@ -13,8 +16,32 @@ nav img {
 }
 /* ------------ Main ------------*/
 
+h1{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.2em;
+    padding-top: 0.7em;
+    padding-bottom: 0%;
+}
 
+h2 {
+    font-family: 'Libre Bodoni', serif;
+    color: whitesmoke;
+    font-size: 2em;
+}
 
+main p {
+    
+    color: whitesmoke;
+    padding-top: 15%;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.2em;
+}
+
+.carou {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20%;
+    border-radius: 10%;
+}
 
 
 
@@ -34,6 +61,9 @@ footer h4  {
     font-size: 2.5em;
     background-color: whitesmoke;
     text-align: center;
+    font-family: 'Libre Bodoni', serif;
+    padding-bottom: 0.5em;
+    padding-top: 0.3em;
 }
 
 footer ul {
