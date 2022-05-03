@@ -1,6 +1,22 @@
 body,html{
     background:#ffffff;
 }
+
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}
+
+/*****************************************************************NAV ******************************************************/
+
+nav img {
+    width: 70%;
+    height: auto;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
+}
+/* ------------ Main ------------*/
 /*********************************************************************************************************** INTRO ***************************************************************************************************************/
 *{
     margin:0;
@@ -137,7 +153,7 @@ body,html{
  .models-box{
      background-size: cover;
      width: 100%;
-     max-width: 1440px;
+     max-width: 1000px;
      height: 400px;
      color: #ffffff;
      align-items: center;
@@ -145,17 +161,17 @@ body,html{
     }
     
 .citadine{
-    background-image: url(./images/208.jpg);
+    background-image: url(../images/208.jpg);
     background-position: 25% 35%;
  }
 
  .break{
-    background-image: url(./images/berline.jpg);
+    background-image: url(../images/berline.jpg);
     background-position: 25% 35%;
  }
 
  .van{
-    background-image: url(./images/rifter.jpg);
+    background-image: url(../images/rifter.jpg);
     background-position: 25% 35%;
  }
 
@@ -170,8 +186,8 @@ body,html{
  }
 
  .prestations{
-     width: 100%;
-    max-width: 1440px;
+    width: 100%;
+    max-width: 1000px;
  }
 
  .details{
@@ -203,6 +219,18 @@ body,html{
     width: auto;
 }
 
+.container{
+    border-bottom: 3px solid darkgrey;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
 div.quotes > svg{
     width: 20%;
 }
@@ -221,6 +249,29 @@ div.quotes > p{
 .comment-content{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    border-top: 1px solid lightgreen;
+    border-bottom: 1px solid lightgreen;
+}
+
+.comment-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid #08c16b;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.environement-box{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    border: #08c16b 2px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(190, 189, 189);
     align-items: center;
 }
 
