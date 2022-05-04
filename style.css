@@ -1,22 +1,3 @@
-body,html{
-    background:#ffffff;
-}
-
-
-body {
-    width: 100%;
-    height: auto;
-    margin: 0%;
-}
-
-/*****************************************************************NAV ******************************************************/
-
-nav img {
-    width: 70%;
-    height: auto;
-    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
-}
-/* ------------ Main ------------*/
 /*********************************************************************************************************** INTRO ***************************************************************************************************************/
 *{
     margin:0;
@@ -273,26 +254,4 @@ div.quotes > p{
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(190, 189, 189);
     align-items: center;
-}
-
-/*------------- Footer ----------*/
-
-footer {
-    font-size: 0.5em;
-    height: 20%;
-}
-
-footer h4  {
-    font-size: 1.5em;
-    background-color: whitesmoke;
-    border: 1px solid grey;
-}
-
-footer li {
-    list-style-type: none;
-}
-
-footer a {
-    text-decoration: none;
-    color: whitesmoke;
 }
