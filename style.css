@@ -5,29 +5,77 @@ body {
     width: 100%;
     height: auto;
     margin: 0%;
+    background-color: whitesmoke;
 }
 
 
 
 nav img {
-    width: 70%;
+    width: 50%;
     height: auto;
-    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.356);
+    padding-left: 2%;
+    border-radius: 10%;
+}
+
+nav li {
+    margin-right: 15%;
+    font-size: 1.5em;
+}
+nav li:hover {
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.253);
+}
+
+button {
+    padding: 5%;
+}
+
+button:hover {
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.253);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
 }
 /* ------------ Main ------------*/
+.presentation {
+    border-radius: 10%;
+    width: 100%;
+    margin-bottom: 5%;
+}
 
 h1{
     font-family: 'Libre Bodoni', serif;
-    font-size: 1.2em;
-    padding-top: 0.7em;
-    padding-bottom: 0%;
+    font-size: 1.4em;
+    padding-top: 0.4em;
+    padding-bottom: 2%;
+    padding-left: 0.2em;
+    background-color: rgb(238, 245, 242);
+    color: black;
 }
+
 
 h2 {
     font-family: 'Libre Bodoni', serif;
     color: whitesmoke;
     font-size: 2em;
 }
+
+h3 {
+    font-family: 'Libre Bodoni', serif;
+    padding: 5%;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
+    font-size: 0.9em;
+}
+
+
 
 main p {
     
@@ -43,7 +91,56 @@ main p {
     border-radius: 10%;
 }
 
+section p {
+    color: black;
+    padding-top: 2%;
+    padding-left:2%;
+    margin : 2%;
+    font-size: 1em;
+    text-align: center;
+}
 
+.cards img {
+    width: 100%;
+    border-radius: 10% 10% 0% 0%;
+}
+
+.cards {
+    width: 40%;
+    border-radius: 10% 10% 10% 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
+.cards p {
+    padding: 5%;
+    font-size: 0.8em;
+}
+
+.transition {
+    color: black;
+}
+
+.vitrine {
+    width: 90%;
+    margin: 5%;
+}
+
+.vitrine img {
+    width: 100%;
+}
+
+.hublot {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;  
+}
+
+.hublot img {
+    width: 40%
+}
 
 
 /*------------- Footer ----------*/
@@ -78,5 +175,104 @@ footer a {
     text-decoration: none;
     color: whitesmoke;
     padding-right: 1.8em;
+    font-family: 'Libre Bodoni', serif;
 }
 
+/************* Responsive ********/
+
+@media screen and (min-width: 767px) {
+    nav img {
+        margin-left: 50%;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-top: 5%;
+    }
+
+    section p {
+        font-size: 1.6em;
+    }
+    .cards p {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.9em;
+    }
+
+    .hublot p {
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+
+h1 {
+    font-size: 2.6em;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start ;
+}
+
+nav img {
+    margin-left: 0%;
+}
+.slide {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards {
+    width: 45%;
+}
+
+.cards:hover {
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.253);
+}
+
+h3 {
+    font-size: 2.4em;
+}
+.solutions {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.vitrine{
+    width: 27%;
+    margin: 3%;
+}
+
+.vitrine:hover {
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.253);
+}
+
+.vitrine img {
+    width: 100%;
+}
+
+
+.hublot {
+    margin-top: 10%;
+}
+.end  {
+    width: 100%;
+    text-align: center;
+    font-size: 2.4em;
+}
+
+.hublot img:hover {
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.253);
+}
+
+footer {
+    font-size: 0.9em;
+    }
+
+footer svg {
+    width: 30%;
+}
+}
